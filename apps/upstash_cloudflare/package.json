@@ -1,0 +1,15 @@
+{
+  "name": "upstash_redis",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.4.4"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.17.0"
+  }
+}
